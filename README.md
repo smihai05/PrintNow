@@ -92,5 +92,4 @@ Layouts are stored in `%APPDATA%\PrintNow\config.json`.
 - [PyInstaller](https://pyinstaller.org/): `.exe` packaging
 
 ## License
-
-Add a license of your choice (for example MIT) in a `LICENSE` file.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
