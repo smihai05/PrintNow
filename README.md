@@ -2,8 +2,7 @@
 
 A minimal, futuristic-looking batch printing tool for Windows. Pick a folder, tick the files you want, choose a printer and a layout, and send everything to print in one click.
 
-(screenshot.png)
-
+![PrintNow screenshot](screenshot.png)
 ## Features
 
 - **Folder browser**: list all PDFs and images in a folder (optionally including subfolders)
