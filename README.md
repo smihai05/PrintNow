@@ -1,5 +1,8 @@
 # PrintNow
 
+## Why?
+You may ask only because I had a lot of PDF files to print and didn't want to open and print each one manually because I am lazy, so I built PrintNow to automate the job.
+
 A minimal, futuristic-looking batch printing tool for Windows. Pick a folder, tick the files you want, choose a printer and a layout, and send everything to print in one click.
 
 ![PrintNow screenshot](screenshot.png)
@@ -18,7 +21,7 @@ A minimal, futuristic-looking batch printing tool for Windows. Pick a folder, ti
 
 - Windows 10 / 11
 - Python 3.10 or newer
-- [SumatraPDF](https://www.sumatrapdfreader.org/download-free-pdf-viewer) **portable** version (used as the printing engine)
+- [SumatraPDF](https://www.sumatrapdfreader.org/download-free-pdf-viewer) **portable** version (used as the printing engine)(download the .zip file, is much more easier)
 
 Python packages:
 
@@ -48,7 +51,7 @@ PrintNow/
 py PrintNow.py
 ```
 
-## Build a standalone `.exe`
+## The option I recommend and is much more convenient is to Build a standalone `.exe`
 
 ```
 py -m PyInstaller --clean --onefile --windowed --add-data "print.ico;." --add-binary "SumatraPDF.exe;." --icon="print.ico" --collect-all customtkinter --collect-all pypdf PrintNow.py
